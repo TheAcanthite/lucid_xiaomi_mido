@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/titanium/config/common_full_phone.mk)
+TITANIUM_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
@@ -40,7 +41,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.titanium.maintainer=Ashay_Kapadiya
+    ro.titanium.maintainer=Ashay Kapadiya (ashaykapadiya)
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys"
