@@ -198,6 +198,3 @@ wifi.interface=wlan0
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.wfd.virtual=0
-
-# Maintainer
-ro.mk.maintainer=Ashay Kapadiya
