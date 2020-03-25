@@ -57,6 +57,13 @@ void check_device()
 
 void vendor_load_properties()
 {
+    // fingerprint
+    property_override("ro.build.description", "mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys");
+    property_override("ro.apex.updatable", "true");
+}
+
+{
     check_device();
 
     property_set("dalvik.vm.heapstartsize", "16m");
