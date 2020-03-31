@@ -646,12 +646,4 @@
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
-     <!-- These resources are around just to allow their values to be customized
-     for different hardware and product builds.  Do not translate. -->
-     <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Whether to post reset runnable for all clients. Needed for some older
-         vendor fingerprint HAL implementations. -->
-    <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
-
 </resources>
