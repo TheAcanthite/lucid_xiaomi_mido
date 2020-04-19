@@ -1,2 +1,2 @@
 allow dpmd self:capability sys_admin;
-
+allow dpmd ctl_stop_prop:property_service set;
