@@ -4,7 +4,7 @@
 
 # Pixel identification
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.build.fingerprint=google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys
+    ro.build.fingerprint=google/walleye/walleye:10/QQ2A.200501.001.B3/6396602:user/release-keys
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
