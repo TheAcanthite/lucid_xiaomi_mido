@@ -14,9 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/titanium_mido.mk
+    $(LOCAL_DIR)/p404_mido.mk
 
-COMMON_LUNCH_CHOICES := \
-    titanium_mido-user \
-    titanium_mido-userdebug \
-    titanium_mido-eng

@@ -22,12 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/titanium/config/common_full_phone.mk)
-TITANIUM_BUILD_TYPE := OFFICIAL
+$(call inherit-product, vendor/404/configs/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := titanium_mido
+PRODUCT_NAME := p404_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
@@ -36,6 +35,4 @@ BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.titanium.maintainer=AshayKapadiya
+TARGET_BOOT_ANIMATION_RES := 1080
